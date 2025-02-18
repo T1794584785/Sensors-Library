@@ -1,0 +1,45 @@
+/* 全局样式 */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* 头部样式 */
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px 0;
+    font-size: 24px;
+}
+
+/* 传感器卡片布局 */
+.sensor-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.sensor-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 15px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.sensor-card:hover {
+    transform: scale(1.05);
+}
+
+/* 图片样式 */
+.sensor-card img {
+    width: 100%;
+    border-radius: 10px;
+}
